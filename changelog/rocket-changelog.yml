@@ -1,0 +1,63 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.rocket.new/changelog
+scheme: weekly-release-notes
+cadence: weekly
+current: '2026-06-week-4'
+notes: >-
+  Rocket.new publishes dated weekly release notes at docs.rocket.new/changelog
+  (organized by year/month/week). Entries below are the recent window captured
+  from the published changelog index (docs.rocket.new/llms.txt). Highlights are
+  summarized from the provider's own release-note titles; see each URL for full
+  detail.
+entries:
+  - version: '2026-06-week-4'
+    url: https://docs.rocket.new/changelog/2026/june/week-4.md
+    breaking: false
+    highlights:
+      - Improved reliability for code generation sessions; stuck progress indicators auto-resolved on unexpected session end.
+  - version: '2026-06-week-3'
+    url: https://docs.rocket.new/changelog/2026/june/week-3.md
+    breaking: false
+    highlights:
+      - Launchpad now supports @ mentions to reference connectors like Supabase, Stripe, and GitHub from a prompt.
+  - version: '2026-06-week-2'
+    url: https://docs.rocket.new/changelog/2026/june/week-2.md
+    breaking: false
+    highlights:
+      - Advisor Agent in Build - a senior-architect sub-agent that resolves error loops and makes architectural decisions automatically.
+  - version: '2026-06-week-1'
+    url: https://docs.rocket.new/changelog/2026/june/week-1.md
+    breaking: false
+    highlights:
+      - Agent web search now runs during the initial build flow so Rocket can research live sources while building v1.
+  - version: '2026-05-week-4'
+    url: https://docs.rocket.new/changelog/2026/may/week-4.md
+    breaking: false
+    highlights:
+      - User-in-the-Loop lets the code generation agent ask clarifying questions mid-run without restarting or losing context.
+  - version: '2026-05-week-2'
+    url: https://docs.rocket.new/changelog/2026/may/week-2.md
+    breaking: false
+    highlights:
+      - Launchpad source context, /fix-hydration-errors command, Flutter connectors for Notion/Linear/Google, and simplified pricing.
+  - version: '2026-05-week-1'
+    url: https://docs.rocket.new/changelog/2026/may/week-1.md
+    breaking: false
+    highlights:
+      - New Workspaces Listing view, Supabase refresh-token fix, hydration error detection, and Intelligence credit updates.
+  - version: '2026-02-week-4'
+    url: https://docs.rocket.new/changelog/2026/february/week-4.md
+    breaking: false
+    highlights:
+      - Claude Sonnet 4.6 support, accessibility audits, performance optimizations, new SEO/GEO/Privacy commands, content preserve.
+  - version: '2026-02-week-2'
+    url: https://docs.rocket.new/changelog/2026/february/week-2.md
+    breaking: true
+    highlights:
+      - New e-commerce project type and Next.js as the default stack; HTML projects deprecated; interactive preview links.
+  - version: '2026-03-week-2'
+    url: https://docs.rocket.new/changelog/2026/march/week-2.md
+    breaking: true
+    highlights:
+      - Mobile creation flow, SVG/image generation improvements, GitHub Sync, 25K templates, multi-format uploads; React deprecated.

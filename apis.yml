@@ -1,8 +1,28 @@
 aid: rocket
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rocket.png
 name: Rocket
-description: 'Rocket is a company surfaced as a portfolio company of accel, electric-capital, sierra-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Rocket (rocket.new) is an AI "vibe solutioning" platform for builders and founders that
+  combines three products: Solve for market research and business analysis, Build for
+  turning natural-language prompts or Figma designs into production-ready React, Next.js,
+  and Flutter web and mobile apps, and Intelligence for tracking competitors across
+  product, hiring, and funding signals. Build ships apps with one-click deploy to Netlify,
+  custom domains, APK/App Store packaging, GitHub two-way code sync, and 26+ connectors
+  (Stripe, Supabase, OpenAI, Anthropic, Twilio, HubSpot, and more) wired into the generated
+  app from chat. Rocket is a no-code/AI app-builder product surface: it consumes external
+  APIs (imported via Postman, cURL, or Swagger) rather than publishing its own public REST
+  API, SDK, CLI, or MCP server. Backed by Accel, Electric Capital, and Sierra Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/rocket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Ai
+- AI
+- App Builder
+- No Code
+- Low Code
+- Developer Tools
+- Web Development
+- Mobile Development
+- Generative AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +54,35 @@ maintainers:
 common:
 - type: Website
   url: https://www.rocket.new/
+- type: Documentation
+  url: https://docs.rocket.new/
+- type: GettingStarted
+  url: https://docs.rocket.new/build/quick-start
+- type: ChangeLog
+  url: https://docs.rocket.new/changelog
+- type: ChangeLog
+  name: Changelog artifact
+  url: changelog/rocket-changelog.yml
+- type: Blog
+  url: https://www.rocket.new/blog
+- type: Pricing
+  url: https://www.rocket.new/pricing
+- type: SignUp
+  url: https://www.rocket.new/signup
+- type: Login
+  url: https://www.rocket.new/login
+- type: TermsOfService
+  url: https://www.rocket.new/terms-service
+- type: PrivacyPolicy
+  url: https://www.rocket.new/privacy
+- type: Support
+  url: https://discord.com/invite/rocket-878500942604038215
+- type: LLMsTxt
+  url: llms/rocket-llms.txt
+- type: DomainSecurity
+  url: security/rocket-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
