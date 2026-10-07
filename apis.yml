@@ -73,6 +73,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/rocket-plans-pricing.yml
 - type: Website
   url: https://www.rocket.new/
 - type: Documentation
