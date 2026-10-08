@@ -1,0 +1,57 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.rocket.new/pricing
+sources:
+- https://www.rocket.new/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Credit-based plans with unlimited team members; annual billing saves 20%.
+plan_count: 5
+currency: USD
+plans:
+- name: Free
+  price_text: $ 0
+  price: 0
+  currency: USD
+  period: month
+  unit: platform fee
+  included_quota: 20 free credits
+  overage: Buy additional credits as needed. Credits never expire.
+- name: Pro
+  price_text: $ 25
+  price: 25
+  currency: USD
+  period: month
+  unit: platform fee
+  included_quota: 100 free monthly credits
+  overage: Buy additional credits as needed. Credits never expire.
+- name: Rocket Total
+  price_text: $ 50
+  price: 50
+  currency: USD
+  period: month
+  unit: platform fee
+  included_quota: 250 free monthly credits
+  overage: Buy additional credits as needed. Credits never expire.
+- name: Booster
+  price_text: $ 250
+  price: 250
+  currency: USD
+  period: month
+  unit: platform fee
+  included_quota: 1500 free monthly credits
+  overage: Buy additional credits as needed. Credits never expire.
+- name: Enterprise (SSO, data localization, premium support, onboarding)
+  price_text: Contact Sales
+  period: none
